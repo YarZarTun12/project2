@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josefina Body Care Collection</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="intro">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="header-content">
+                <img src="./images/logo.png" alt="Josefina Logo" class="logo animated">
+                <div class="header-text">
+                    <h1 class="animated"><i>Josefina Body Care Collection</i></h1>
+                    <p class="animated">Discover the exotic sensation of all seasons</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Promo Bar with Slideshow -->
+        <div class="promo-bar">
+            <div class="slides">
+                <p style="background-color: rgb(192, 150, 231);" class="promo-slide">Today Only! <strong>$5.99 INTO THE NIGHT BODY CARE</strong> Code: <strong>STARRYNIGHT</strong></p>
+                <p style="background-color: rgb(255, 121, 195);" class="promo-slide">Enjoy Radiant Skin! <strong>Get Your Body Glow</strong> Code: <strong>GLOW20</strong></p>
+                <p style="background-color: rgb(241, 211, 144);" class="promo-slide">Exclusive Deal! <strong>Natural Care for $5.99</strong> Code: <strong>LIMITED</strong></p>
+            </div>
+        </div>
+
+        <!-- Hero Image with Text Block -->
+        <div class="main-banner">
+            <div class="product-description">
+                <p>
+                    A 100% natural, unique dry oil that nourishes the skin. Enriched with nourishing herbs, specifically put together according to the Ayurvedic tradition for the Vata Dosha. With nourishing sweet almond oil and basil.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Main Bottom Section -->
+        <div class="main-footer-section">
+            <div class="text-block text-block1">
+                <p>
+                    <strong>Unique blend</strong> containing antioxidants, Vitamin E, and the ingredient Centella Asiatica. Experience timeless nourishment with natural care that revitalizes your skin.
+                </p>
+            </div>
+            <div class="text-block text-block2">
+                <h2>Strengthen Your Skin</h2>
+                <p>
+                    Special technology makes this whipped cream easy to apply while its rich and velvety formulation nourishes your skin.
+                    <br><br>
+                    Enriched with nourishing rice milk and a flowery fragrance of cherry blossom.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- second section -->
+    <section class="product-section">
+      <div class="bodylotion">
+      <h1>Josefina Body Lotion</h1>
+      <hr>
+      <div class="product-list">
+          <div class="product">
+              <img src="./images/item1.png" alt="Cherry Blossom Hand Lotion">
+              <h2>The Ritual of Sakura</h2>
+              <p>Cherry Blossom Hand Lotion</p>
+              <p>Body lotion, 70 ml</p>
+              <p><strong>$12.50</strong></p>
+              <button class="add-to-bag"data-price="12.50" data-product="cherry">ADD TO BAG</button>
+          </div>
+          <div class="product">
+              <img src="./images/item2.png" alt="Himalaya Honey Body Cream">
+              <h2>The Ritual of Ayurveda</h2>
+              <p>Himalaya Honey Body Cream</p>
+              <p>Body cream, 70 ml</p>
+              <p><strong>$7.50</strong></p>
+              <button class="add-to-bag"data-price="7.50" data-product="himalaya">ADD TO BAG</button>
+          </div>
+          <div class="product">
+              <img src="./images/item3.png" alt="Organic Rice Milk Body Cream">
+              <h2>The Ritual of Sakura</h2>
+              <p>Organic Rice Milk Body Cream</p>
+              <p>Body cream, 70 ml</p>
+              <p><strong>$7.50</strong></p>
+              <button class="add-to-bag"data-price="7.50" data-product="rice">ADD TO BAG</button>
+          </div>
+      </div>
+
+      
+  </div>
+
+  <!--gift sets -->
+
+  <div class="giftsets">
+    <div class="bodylotion">
+      <h1>Josefina Gift Sets</h1>
+      <hr>
+      <div class="product-list">
+          <div class="product">
+              <img src="./images/gift_set1.png" alt="Cherry Blossom Hand Lotion">
+              <h2>The Ritual of Ayurveda</h2>
+              <p>formiig shower </p>
+              <p>200ml, body scrub 125g, body cream 70ml, hand soap 300ml</p>
+              <p><strong>$37.50</strong></p>
+              <button class="add-to-bag" data-price="37.50" data-product="ayurveda">ADD TO BAG</button>
+          </div>
+          <div class="product">
+              <img src="./images/gift_set2.png" alt="Himalaya Honey Body Cream">
+              <h2>The Ritual of Sakura</h2>
+              <p>formiig shower gel</p>
+              <p>200ml, body scrub 125g, body cream 70ml, hand soap 300ml</p>
+              <p><strong>$26.00</strong></p>
+              <button class="add-to-bag"data-price="26.50" data-product="sakura">ADD TO BAG</button>
+          </div>
+          <div class="product">
+              <img src="./images/gift_set3.png" alt="Organic Rice Milk Body Cream">
+              <h2>The Ritual of Karmar</h2>
+              <p>formiig shower gel</p>
+              <p>200ml, body scrub 125g, body cream 70ml, hand soap 300ml</p>
+              <p><strong>$37.50</strong></p>
+              <button class="add-to-bag"data-price="37.50" data-product="karmar">ADD TO BAG</button>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="modal" id="product-modal">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <h2>IT'S IN THE BAG!</h2>
+
+        <span class="modal-deatils">
+        <img src="" alt="" class="modal-image">
+        <span>
+        <h3 class="modal-title"></h3>
+        <p class="modal-description"></p>
+        <p ><strong class="modal-price"></strong></p>
+      </span>
+      </span>
+      <div class="modal-footer">
+      
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim alias sit dignissimos voluptatum distinctio nihil quia aut odio iusto natus!</p>
+        <button class="continue-shopping">CONTINUE SHOPPING</button>
+
+      </div>
+    </div>
+</div>
+  </section>
+
+  <!-- Modal -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>HELP</h4>
+        <ul>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">Live Chat</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>ACCOUNT</h4>
+        <ul>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Order Status</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>SUBSCRIBE</h4>
+        <ul>
+          <li><a href="#">Emails</a></li>
+          <li><a href="#">Store Offer and Events</a></li>
+        </ul>  display: flex;
+
+      </div>
+      <div class="footer-section">
+        <h4>THE MEMBER CARD</h4>
+        <ul>
+          <li><a href="#">Learn More</a></li>
+          <li><a href="#">Pay My Bill</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <hr />
+    <div class="social-icons">
+      <h2>CONNECT WITH JOSEPHIN BODY CARE SOLUTION</h2>
+      <br>
+      <span>
+      <a href="#"><img src="./images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="./images/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="./images/youtube.png" alt="YouTube"></a>
+      <a href="#"><img src="./images/pin.png" alt="Pinterest"></a>
+      <a href="#"><img src="./images/twitter.png" alt="Twitter"></a>
+      </span>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2020 Fall Josefina Body Care Collection by First Name Last Name All Rights Reserved.</p>
+      <p class="note">
+        NOTE: This webpage is a template to create a sales website. All information and materials used are for ONLY educational purposes.
+      </p>
+      
+    </div>
+  </footer>
+  
+ 
+
+  <script src="./index.js"></script>
+</body>
+</html>
